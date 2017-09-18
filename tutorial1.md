@@ -54,4 +54,4 @@ Bind the `title` variable using interpolation in `home.component.html`
 </h1>
 ``` 
 
-Next step [User component](./tutorial2.md)
+Next step [User cnomponent](./tutorial2.md)
