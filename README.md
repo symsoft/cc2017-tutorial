@@ -1,14 +1,24 @@
-# Cc2017Tutorial
+# Code Camp 2017 Tutorial
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.0.6.
+## Introduction
+
+This project is a tutorial for Symsoft Code Camp 2017.
+
+The project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.0.6.
+
+To generate a new Angular project use:
+ 
+``ng new cc2017-tutorial`` 
 
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
-## Code scaffolding
+## Angular components and modules
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|module`.
+Components control views (html). They also communicate with other components and services to bring functionality to your app.
+
+Modules consist of one or more components. They do not control any html. Your modules declare which components can be used by components belonging to other modules, which classes will be injected by the dependency injector and which component gets bootstrapped. Modules allow you to manage your components to bring modularity to your app.
 
 ## Build
 
